@@ -6,14 +6,14 @@ Total fetched: 749 (399 Issues, 350 Pull Requests)
 
 - [x] [#4640](https://github.com/Pumpkin-MC/Pumpkin/issues/4640) — wardem cannot attack any entity
 - [x] [#4629](https://github.com/Pumpkin-MC/Pumpkin/issues/4629) — Cannot place a regular rail on top of a hopper
-- [ ] [#4623](https://github.com/Pumpkin-MC/Pumpkin/issues/4623) — Player Locator Bar does not show other players with locator_bar enabled
+- [x] [#4623](https://github.com/Pumpkin-MC/Pumpkin/issues/4623) — Player Locator Bar does not show other players with locator_bar enabled
 - [ ] [#4603](https://github.com/Pumpkin-MC/Pumpkin/issues/4603) — TRACKER: Parity Integration Test
 - [ ] [#4601](https://github.com/Pumpkin-MC/Pumpkin/issues/4601) — Bedrock player appears in a swimming pose
 - [ ] [#4598](https://github.com/Pumpkin-MC/Pumpkin/issues/4598) — Worldborder transition broken
 - [ ] [#4596](https://github.com/Pumpkin-MC/Pumpkin/issues/4596) — Frozen ocean icebergs turn into grass/dirt in strips of chunks
 - [ ] [#4593](https://github.com/Pumpkin-MC/Pumpkin/issues/4593) — stop and SIGTERM never return while a v0.2 plugin keeps an endless spawn_local future
 - [ ] [#4592](https://github.com/Pumpkin-MC/Pumpkin/issues/4592) — WASM dynamic server-side tab completions throw the server into a panic and crash
-- [ ] [#4583](https://github.com/Pumpkin-MC/Pumpkin/issues/4583) — Server deadlocks under load when a plugin handles PacketSentEvent
+- [x] [#4583](https://github.com/Pumpkin-MC/Pumpkin/issues/4583) — Server deadlocks under load when a plugin handles PacketSentEvent
 - [ ] [#4582](https://github.com/Pumpkin-MC/Pumpkin/issues/4582) — Java 26.3 client disconnected ~3s after join: failed to decode clientbound level_particles (IndexOutOfBounds in readDouble)
 - [ ] [#4580](https://github.com/Pumpkin-MC/Pumpkin/issues/4580) — Mobs do not teleport inside of boats if near.
 - [ ] [#4579](https://github.com/Pumpkin-MC/Pumpkin/issues/4579) — failure to bind to assigned port
@@ -29,7 +29,7 @@ Total fetched: 749 (399 Issues, 350 Pull Requests)
 - [ ] [#4522](https://github.com/Pumpkin-MC/Pumpkin/issues/4522) — Painting variant metadata is sent without the Holder +1 offset
 - [ ] [#4521](https://github.com/Pumpkin-MC/Pumpkin/issues/4521) — Expose transfer queue results to plugins
 - [ ] [#4518](https://github.com/Pumpkin-MC/Pumpkin/issues/4518) — Are there plans to support Alpine Linux?
-- [ ] [#4513](https://github.com/Pumpkin-MC/Pumpkin/issues/4513) — Client shows wrong max health for horses (26 hearts) after spawn
+- [x] [#4513](https://github.com/Pumpkin-MC/Pumpkin/issues/4513) — Client shows wrong max health for horses (26 hearts) after spawn
 - [ ] [#4498](https://github.com/Pumpkin-MC/Pumpkin/issues/4498) — crafted items disappear from inventory
 - [ ] [#4496](https://github.com/Pumpkin-MC/Pumpkin/issues/4496) — Furnace does not award experience after smelting when the smelted product is extracted
 - [ ] [#4492](https://github.com/Pumpkin-MC/Pumpkin/issues/4492) — Naturally spawned skeletons have no bow, and skeleton arrows deal no damage
@@ -39,7 +39,7 @@ Total fetched: 749 (399 Issues, 350 Pull Requests)
 - [ ] [#4478](https://github.com/Pumpkin-MC/Pumpkin/issues/4478) — After the flame is extinguished, it reappears out of thin air.
 - [ ] [#4477](https://github.com/Pumpkin-MC/Pumpkin/issues/4477) — The sword's sweeping effect appeared in the wrong location.
 - [ ] [#4475](https://github.com/Pumpkin-MC/Pumpkin/issues/4475) — Anvil chunk serializer drops 'structures' compound (starts and References)
-- [ ] [#4474](https://github.com/Pumpkin-MC/Pumpkin/issues/4474) — Chunk read errors silently trigger regeneration and overwrite existing disk chunks
+- [x] [#4474](https://github.com/Pumpkin-MC/Pumpkin/issues/4474) — Chunk read errors silently trigger regeneration and overwrite existing disk chunks
 - [ ] [#4473](https://github.com/Pumpkin-MC/Pumpkin/issues/4473) — [WASM v0.3] Improve Wasm Plugin API versioning
 - [ ] [#4472](https://github.com/Pumpkin-MC/Pumpkin/issues/4472) — [WASM v0.2] Publish the v0.1 to v0.2 plugin migration guide
 - [ ] [#4471](https://github.com/Pumpkin-MC/Pumpkin/issues/4471) — [WASM v0.2] Deprecate Wasm Plugin API v0.1
@@ -159,7 +159,7 @@ Total fetched: 749 (399 Issues, 350 Pull Requests)
 - [ ] [#4166](https://github.com/Pumpkin-MC/Pumpkin/issues/4166) — Generate WIT types and Rust conversions for packets and events from one model
 - [ ] [#4156](https://github.com/Pumpkin-MC/Pumpkin/issues/4156) — Plugin callback during `pump_blocking` can deadlock the whole server
 - [ ] [#4154](https://github.com/Pumpkin-MC/Pumpkin/issues/4154) — `player.play-sound` / `play-sound-at` derive the wrong sound name and trap the plugin
-- [ ] [#4148](https://github.com/Pumpkin-MC/Pumpkin/issues/4148) — Offline-mode UUIDs differ from vanilla
+- [x] [#4148](https://github.com/Pumpkin-MC/Pumpkin/issues/4148) — Offline-mode UUIDs differ from vanilla
 - [ ] [#4147](https://github.com/Pumpkin-MC/Pumpkin/issues/4147) — Permission confirmation blocks plugin loading without a console
 - [ ] [#4146](https://github.com/Pumpkin-MC/Pumpkin/issues/4146) — No way to resend a player's command tree
 - [ ] [#4145](https://github.com/Pumpkin-MC/Pumpkin/issues/4145) — Host calls inside a blocking join handler can hang the join
