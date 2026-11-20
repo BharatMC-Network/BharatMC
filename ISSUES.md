@@ -38,13 +38,13 @@ Total fetched: 749 (399 Issues, 350 Pull Requests)
 - [ ] [#4484](https://github.com/Pumpkin-MC/Pumpkin/issues/4484) — Gamerule immediate_respawn non-functioning
 - [ ] [#4478](https://github.com/Pumpkin-MC/Pumpkin/issues/4478) — After the flame is extinguished, it reappears out of thin air.
 - [ ] [#4477](https://github.com/Pumpkin-MC/Pumpkin/issues/4477) — The sword's sweeping effect appeared in the wrong location.
-- [ ] [#4475](https://github.com/Pumpkin-MC/Pumpkin/issues/4475) — Anvil chunk serializer drops 'structures' compound (starts and References)
+- [x] [#4475](https://github.com/Pumpkin-MC/Pumpkin/issues/4475) — Anvil chunk serializer drops 'structures' compound (starts and References)
 - [x] [#4474](https://github.com/Pumpkin-MC/Pumpkin/issues/4474) — Chunk read errors silently trigger regeneration and overwrite existing disk chunks
 - [ ] [#4473](https://github.com/Pumpkin-MC/Pumpkin/issues/4473) — [WASM v0.3] Improve Wasm Plugin API versioning
 - [ ] [#4472](https://github.com/Pumpkin-MC/Pumpkin/issues/4472) — [WASM v0.2] Publish the v0.1 to v0.2 plugin migration guide
 - [ ] [#4471](https://github.com/Pumpkin-MC/Pumpkin/issues/4471) — [WASM v0.2] Deprecate Wasm Plugin API v0.1
 - [ ] [#4470](https://github.com/Pumpkin-MC/Pumpkin/issues/4470) — [WASM v0.2] Enable Wasm Plugin API v0.2 by default
-- [ ] [#4466](https://github.com/Pumpkin-MC/Pumpkin/issues/4466) — Container block entities send full inventory in CBlockEntityData on chunk load, crashing Java client
+- [x] [#4466](https://github.com/Pumpkin-MC/Pumpkin/issues/4466) — Container block entities send full inventory in CBlockEntityData on chunk load, crashing Java client
 - [ ] [#4463](https://github.com/Pumpkin-MC/Pumpkin/issues/4463) — systemctl Unit File
 - [ ] [#4458](https://github.com/Pumpkin-MC/Pumpkin/issues/4458) — stone cutter bug
 - [ ] [#4456](https://github.com/Pumpkin-MC/Pumpkin/issues/4456) — riptide animation bug
@@ -62,15 +62,15 @@ Total fetched: 749 (399 Issues, 350 Pull Requests)
 - [ ] [#4388](https://github.com/Pumpkin-MC/Pumpkin/issues/4388) — Bundle does not work as it should.
 - [ ] [#4386](https://github.com/Pumpkin-MC/Pumpkin/issues/4386) — Lava does not burn boats
 - [ ] [#4383](https://github.com/Pumpkin-MC/Pumpkin/issues/4383) — Picking up excess items in creative mode creates "ghost items"
-- [ ] [#4367](https://github.com/Pumpkin-MC/Pumpkin/issues/4367) — /worldborder center error shows a raw %s
+- [x] [#4367](https://github.com/Pumpkin-MC/Pumpkin/issues/4367) — /worldborder center error shows a raw %s
 - [ ] [#4366](https://github.com/Pumpkin-MC/Pumpkin/issues/4366) — /scoreboard objectives setdisplay/modify/list and players list missing
 - [ ] [#4365](https://github.com/Pumpkin-MC/Pumpkin/issues/4365) — Scoreboard, bossbars, command storage and world border lost on restart
 - [ ] [#4364](https://github.com/Pumpkin-MC/Pumpkin/issues/4364) — Movement is not validated (speed and flying)
 - [ ] [#4362](https://github.com/Pumpkin-MC/Pumpkin/issues/4362) — /effect give and /effect clear reject non-player entities
-- [ ] [#4360](https://github.com/Pumpkin-MC/Pumpkin/issues/4360) — /data modify ... insert <index> is unusable
+- [x] [#4360](https://github.com/Pumpkin-MC/Pumpkin/issues/4360) — /data modify ... insert <index> is unusable
 - [ ] [#4359](https://github.com/Pumpkin-MC/Pumpkin/issues/4359) — New world saves SpawnY=200, console commands run at y=200
 - [ ] [#4358](https://github.com/Pumpkin-MC/Pumpkin/issues/4358) — Console /say and /msg are not written to the server log
-- [ ] [#4357](https://github.com/Pumpkin-MC/Pumpkin/issues/4357) — /setblock and /fill report success when no block changes
+- [x] [#4357](https://github.com/Pumpkin-MC/Pumpkin/issues/4357) — /setblock and /fill report success when no block changes
 - [ ] [#4355](https://github.com/Pumpkin-MC/Pumpkin/issues/4355) — /xp add with a negative amount: negative level and wrong message
 - [ ] [#4354](https://github.com/Pumpkin-MC/Pumpkin/issues/4354) — /spreadplayers with respectTeams puts all teams on the same spot
 - [ ] [#4353](https://github.com/Pumpkin-MC/Pumpkin/issues/4353) — Entity NBT: NoGravity/Silent/Glowing ignored and /data remove has no effect
@@ -93,7 +93,7 @@ Total fetched: 749 (399 Issues, 350 Pull Requests)
 - [ ] [#4297](https://github.com/Pumpkin-MC/Pumpkin/issues/4297) — A plugin cannot register a handler for `add-custom-ai-goal`
 - [ ] [#4296](https://github.com/Pumpkin-MC/Pumpkin/issues/4296) — Splash potion damage fires no `entity-damage-by-entity` event (attacker lost)
 - [ ] [#4295](https://github.com/Pumpkin-MC/Pumpkin/issues/4295) — `PlayerLeaveEvent` has no leave reason (feature request)
-- [ ] [#4294](https://github.com/Pumpkin-MC/Pumpkin/issues/4294) — `entity.get-nearby-entities` never includes players
+- [x] [#4294](https://github.com/Pumpkin-MC/Pumpkin/issues/4294) — `entity.get-nearby-entities` never includes players
 - [ ] [#4292](https://github.com/Pumpkin-MC/Pumpkin/issues/4292) — A plugin that trapped keeps logging an error for every event and task run
 - [ ] [#4288](https://github.com/Pumpkin-MC/Pumpkin/issues/4288) — Chest changes are lost when the last player leaves (item duplication)
 - [ ] [#4283](https://github.com/Pumpkin-MC/Pumpkin/issues/4283) — Problems with Mouse middle click
@@ -129,7 +129,7 @@ Total fetched: 749 (399 Issues, 350 Pull Requests)
 - [ ] [#4244](https://github.com/Pumpkin-MC/Pumpkin/issues/4244) — [TRACKER] Mob Vanilla Parity: Zombie Nautilus
 - [ ] [#4243](https://github.com/Pumpkin-MC/Pumpkin/issues/4243) — [TRACKER] Mob Vanilla Parity: Wolf
 - [ ] [#4241](https://github.com/Pumpkin-MC/Pumpkin/issues/4241) — [TRACKER] Mob Vanilla Parity: Spider
-- [ ] [#4239](https://github.com/Pumpkin-MC/Pumpkin/issues/4239) — [TRACKER] Mob Vanilla Parity: Polar Bear
+- [x] [#4239](https://github.com/Pumpkin-MC/Pumpkin/issues/4239) — [TRACKER] Mob Vanilla Parity: Polar Bear
 - [ ] [#4238](https://github.com/Pumpkin-MC/Pumpkin/issues/4238) — [TRACKER] Mob Vanilla Parity: Piglin
 - [ ] [#4237](https://github.com/Pumpkin-MC/Pumpkin/issues/4237) — [TRACKER] Mob Vanilla Parity: Panda
 - [ ] [#4236](https://github.com/Pumpkin-MC/Pumpkin/issues/4236) — [TRACKER] Mob Vanilla Parity: Nautilus
@@ -152,26 +152,26 @@ Total fetched: 749 (399 Issues, 350 Pull Requests)
 - [ ] [#4187](https://github.com/Pumpkin-MC/Pumpkin/issues/4187) — Ender pearl don't works when you try to interract with a block with it
 - [ ] [#4185](https://github.com/Pumpkin-MC/Pumpkin/issues/4185) — [TRACKER] Vanilla Parity: Mobs
 - [ ] [#4178](https://github.com/Pumpkin-MC/Pumpkin/issues/4178) — Campfire dupes food
-- [ ] [#4177](https://github.com/Pumpkin-MC/Pumpkin/issues/4177) — `world.get-id` returns the same id for the overworld, the Nether and the End
+- [x] [#4177](https://github.com/Pumpkin-MC/Pumpkin/issues/4177) — `world.get-id` returns the same id for the overworld, the Nether and the End
 - [ ] [#4176](https://github.com/Pumpkin-MC/Pumpkin/issues/4176) — First chunk generation in the Nether can deadlock its whole generation pool (stronghold rings computed with rayon inside `OnceLock::get_or_init`)
 - [ ] [#4169](https://github.com/Pumpkin-MC/Pumpkin/issues/4169) — Disconnecting with the player inventory open loses the cursor item and 2x2 crafting grid items
 - [ ] [#4168](https://github.com/Pumpkin-MC/Pumpkin/issues/4168) — Some squares re-appear "is under spawn protection"
 - [ ] [#4166](https://github.com/Pumpkin-MC/Pumpkin/issues/4166) — Generate WIT types and Rust conversions for packets and events from one model
-- [ ] [#4156](https://github.com/Pumpkin-MC/Pumpkin/issues/4156) — Plugin callback during `pump_blocking` can deadlock the whole server
+- [x] [#4156](https://github.com/Pumpkin-MC/Pumpkin/issues/4156) — Plugin callback during `pump_blocking` can deadlock the whole server
 - [ ] [#4154](https://github.com/Pumpkin-MC/Pumpkin/issues/4154) — `player.play-sound` / `play-sound-at` derive the wrong sound name and trap the plugin
 - [x] [#4148](https://github.com/Pumpkin-MC/Pumpkin/issues/4148) — Offline-mode UUIDs differ from vanilla
 - [ ] [#4147](https://github.com/Pumpkin-MC/Pumpkin/issues/4147) — Permission confirmation blocks plugin loading without a console
 - [ ] [#4146](https://github.com/Pumpkin-MC/Pumpkin/issues/4146) — No way to resend a player's command tree
 - [ ] [#4145](https://github.com/Pumpkin-MC/Pumpkin/issues/4145) — Host calls inside a blocking join handler can hang the join
-- [ ] [#4144](https://github.com/Pumpkin-MC/Pumpkin/issues/4144) — `game-profile` command arguments arrive as empty strings
+- [x] [#4144](https://github.com/Pumpkin-MC/Pumpkin/issues/4144) — `game-profile` command arguments arrive as empty strings
 - [ ] [#4143](https://github.com/Pumpkin-MC/Pumpkin/issues/4143) — Names come with or without the `minecraft:` namespace depending on the event
 - [ ] [#4142](https://github.com/Pumpkin-MC/Pumpkin/issues/4142) — `inventory-open` event has no container position
 - [ ] [#4141](https://github.com/Pumpkin-MC/Pumpkin/issues/4141) — Explosion events: no affected block list, and one TNT fires two events
 - [ ] [#4140](https://github.com/Pumpkin-MC/Pumpkin/issues/4140) — Block, explosion and piston events carry no world
-- [ ] [#4139](https://github.com/Pumpkin-MC/Pumpkin/issues/4139) — `world.set-block-entity-nbt` has no effect on loaded block entities
+- [x] [#4139](https://github.com/Pumpkin-MC/Pumpkin/issues/4139) — `world.set-block-entity-nbt` has no effect on loaded block entities
 - [ ] [#4138](https://github.com/Pumpkin-MC/Pumpkin/issues/4138) — Bucket events fire after the world changed; cancelling does not undo it
-- [ ] [#4137](https://github.com/Pumpkin-MC/Pumpkin/issues/4137) — Event priorities are ignored
-- [ ] [#4136](https://github.com/Pumpkin-MC/Pumpkin/issues/4136) — Typing a plugin command with server-side suggestions into the console crashes the server
+- [x] [#4137](https://github.com/Pumpkin-MC/Pumpkin/issues/4137) — Event priorities are ignored
+- [x] [#4136](https://github.com/Pumpkin-MC/Pumpkin/issues/4136) — Typing a plugin command with server-side suggestions into the console crashes the server
 - [ ] [#4135](https://github.com/Pumpkin-MC/Pumpkin/issues/4135) — Evokers do not drop totems
 - [ ] [#4130](https://github.com/Pumpkin-MC/Pumpkin/issues/4130) — Several issues
 - [ ] [#4128](https://github.com/Pumpkin-MC/Pumpkin/issues/4128) — Jukebox music disc duplication
@@ -182,12 +182,12 @@ Total fetched: 749 (399 Issues, 350 Pull Requests)
 - [ ] [#4122](https://github.com/Pumpkin-MC/Pumpkin/issues/4122) — Wardens do not have a sonic boom
 - [ ] [#4109](https://github.com/Pumpkin-MC/Pumpkin/issues/4109) — Server freezes on server.create_world method
 - [ ] [#4089](https://github.com/Pumpkin-MC/Pumpkin/issues/4089) — Firework Rockets All being Power 1
-- [ ] [#4079](https://github.com/Pumpkin-MC/Pumpkin/issues/4079) — Nether trees can generate through solid terrain
+- [x] [#4079](https://github.com/Pumpkin-MC/Pumpkin/issues/4079) — Nether trees can generate through solid terrain
 - [ ] [#4078](https://github.com/Pumpkin-MC/Pumpkin/issues/4078) — some dungeons are generated differently than in vanilla.
 - [ ] [#4077](https://github.com/Pumpkin-MC/Pumpkin/issues/4077) — Dripstone caves are not generating correctly.
 - [ ] [#4076](https://github.com/Pumpkin-MC/Pumpkin/issues/4076) — geodes do not generate
 - [ ] [#4075](https://github.com/Pumpkin-MC/Pumpkin/issues/4075) — Empty command in console should be ignored not error
-- [ ] [#4070](https://github.com/Pumpkin-MC/Pumpkin/issues/4070) — Parts of trees generating across a chunk border get replaced with grass
+- [x] [#4070](https://github.com/Pumpkin-MC/Pumpkin/issues/4070) — Parts of trees generating across a chunk border get replaced with grass
 - [ ] [#4052](https://github.com/Pumpkin-MC/Pumpkin/issues/4052) — Clarity Regarding Docker Image Tags
 - [ ] [#4048](https://github.com/Pumpkin-MC/Pumpkin/issues/4048) — Memory grows by about 3 MB with every player join and leave
 - [ ] [#4035](https://github.com/Pumpkin-MC/Pumpkin/issues/4035) — deep dark generates practically nothing in terms of sculk and only sculk veins
@@ -197,7 +197,7 @@ Total fetched: 749 (399 Issues, 350 Pull Requests)
 - [ ] [#4020](https://github.com/Pumpkin-MC/Pumpkin/issues/4020) — Loot table generation uses non deterministic RNG instead of seed-based random sequences (1.20+)
 - [ ] [#4011](https://github.com/Pumpkin-MC/Pumpkin/issues/4011) — Extending a chest from diagonally above does not work properly
 - [ ] [#4006](https://github.com/Pumpkin-MC/Pumpkin/issues/4006) — Bug: PacketSentEvent handlers are rarely or never invoked by the core event dispatcher
-- [ ] [#3989](https://github.com/Pumpkin-MC/Pumpkin/issues/3989) — Trial Vault crashes the server
+- [x] [#3989](https://github.com/Pumpkin-MC/Pumpkin/issues/3989) — Trial Vault crashes the server
 - [ ] [#3974](https://github.com/Pumpkin-MC/Pumpkin/issues/3974) — fix(entity): correct hoglin and zoglin throw guards and velocity behavior
 - [ ] [#3973](https://github.com/Pumpkin-MC/Pumpkin/issues/3973) — Placing a powder snow bucket by hand consumes the bucket instead of returning an empty one
 - [ ] [#3971](https://github.com/Pumpkin-MC/Pumpkin/issues/3971) — Mob buckets do not keep the mob data, so a released axolotl gets a random color
@@ -210,7 +210,7 @@ Total fetched: 749 (399 Issues, 350 Pull Requests)
 - [ ] [#3902](https://github.com/Pumpkin-MC/Pumpkin/issues/3902) — Chest contents and structure loot tables are lost on `stop` in chunks away from spawn (only an explicit `save-all` persists them)
 - [ ] [#3900](https://github.com/Pumpkin-MC/Pumpkin/issues/3900) — Piston problem
 - [ ] [#3899](https://github.com/Pumpkin-MC/Pumpkin/issues/3899) — Flying in creative while flying with a elytra you move strangly
-- [ ] [#3888](https://github.com/Pumpkin-MC/Pumpkin/issues/3888) — Taking damage/getting killed while sleeping doesn't wake the player up
+- [x] [#3888](https://github.com/Pumpkin-MC/Pumpkin/issues/3888) — Taking damage/getting killed while sleeping doesn't wake the player up
 - [ ] [#3879](https://github.com/Pumpkin-MC/Pumpkin/issues/3879) — Floating snow in Snowy Taiga village
 - [ ] [#3867](https://github.com/Pumpkin-MC/Pumpkin/issues/3867) — Tracking: GameTest framework issues
 - [ ] [#3858](https://github.com/Pumpkin-MC/Pumpkin/issues/3858) — Indiscriminate use of `tokio::sync` throughout the codebase
@@ -220,7 +220,7 @@ Total fetched: 749 (399 Issues, 350 Pull Requests)
 - [ ] [#3841](https://github.com/Pumpkin-MC/Pumpkin/issues/3841) — Plugin API: Mutable (bedrock) resource pack configuration
 - [ ] [#3838](https://github.com/Pumpkin-MC/Pumpkin/issues/3838) — Button noise fires twice
 - [ ] [#3837](https://github.com/Pumpkin-MC/Pumpkin/issues/3837) — Standing on one block above a magma block with snow placed on it does damage
-- [ ] [#3836](https://github.com/Pumpkin-MC/Pumpkin/issues/3836) — When I teleport with /tp into not generated chunks i die in the void
+- [x] [#3836](https://github.com/Pumpkin-MC/Pumpkin/issues/3836) — When I teleport with /tp into not generated chunks i die in the void
 - [ ] [#3833](https://github.com/Pumpkin-MC/Pumpkin/issues/3833) — Pistons can be powered from the head when the head is facing down.
 - [ ] [#3831](https://github.com/Pumpkin-MC/Pumpkin/issues/3831) — In Bedrock edition, if try to move inside a 1 block whole you can Crawl
 - [ ] [#3802](https://github.com/Pumpkin-MC/Pumpkin/issues/3802) — First time world join kicked for packet spam
@@ -230,7 +230,7 @@ Total fetched: 749 (399 Issues, 350 Pull Requests)
 - [ ] [#3772](https://github.com/Pumpkin-MC/Pumpkin/issues/3772) — Fire propagation from natural lava source is infinite
 - [ ] [#3767](https://github.com/Pumpkin-MC/Pumpkin/issues/3767) — Item frames lack placement and survival validation
 - [ ] [#3761](https://github.com/Pumpkin-MC/Pumpkin/issues/3761) — Villager trading
-- [ ] [#3759](https://github.com/Pumpkin-MC/Pumpkin/issues/3759) — Recursive /function calls crash the server with a stack overflow
+- [x] [#3759](https://github.com/Pumpkin-MC/Pumpkin/issues/3759) — Recursive /function calls crash the server with a stack overflow
 - [ ] [#3758](https://github.com/Pumpkin-MC/Pumpkin/issues/3758) — /execute store rejects valid vanilla commands
 - [ ] [#3742](https://github.com/Pumpkin-MC/Pumpkin/issues/3742) — Villagers move while sleeping
 - [ ] [#3738](https://github.com/Pumpkin-MC/Pumpkin/issues/3738) — Bedrock 1.26.51 cannot join via NetherNet – TLS ClientHello receives plaintext HTTP 400
@@ -242,14 +242,14 @@ Total fetched: 749 (399 Issues, 350 Pull Requests)
 - [ ] [#3701](https://github.com/Pumpkin-MC/Pumpkin/issues/3701) — Building a plugin with pumpkin-plugin-utils' init fails
 - [ ] [#3690](https://github.com/Pumpkin-MC/Pumpkin/issues/3690) — End crystals damage, knockback and placement are not working as the intended way
 - [ ] [#3688](https://github.com/Pumpkin-MC/Pumpkin/issues/3688) — WIT: player-action-add-player.properties reuses attribute-shaped property struct
-- [ ] [#3672](https://github.com/Pumpkin-MC/Pumpkin/issues/3672) — Falling blocks don't slow with cobwebs
-- [ ] [#3659](https://github.com/Pumpkin-MC/Pumpkin/issues/3659) — Fire may stay floating mid air after burning down a tree/forest
+- [x] [#3672](https://github.com/Pumpkin-MC/Pumpkin/issues/3672) — Falling blocks don't slow with cobwebs
+- [x] [#3659](https://github.com/Pumpkin-MC/Pumpkin/issues/3659) — Fire may stay floating mid air after burning down a tree/forest
 - [ ] [#3646](https://github.com/Pumpkin-MC/Pumpkin/issues/3646) — Chiseled bookshelf book changes emit no block-change game event
-- [ ] [#3631](https://github.com/Pumpkin-MC/Pumpkin/issues/3631) — Bells never resonate or reveal nearby raiders
+- [x] [#3631](https://github.com/Pumpkin-MC/Pumpkin/issues/3631) — Bells never resonate or reveal nearby raiders
 - [ ] [#3628](https://github.com/Pumpkin-MC/Pumpkin/issues/3628) — Add support for arm/v7
 - [ ] [#3627](https://github.com/Pumpkin-MC/Pumpkin/issues/3627) — Dispensers drop bone meal instead of applying it as fertilizer
-- [ ] [#3626](https://github.com/Pumpkin-MC/Pumpkin/issues/3626) — Creepers with status effects leave no area-effect cloud when they explode
-- [ ] [#3624](https://github.com/Pumpkin-MC/Pumpkin/issues/3624) — Experience orbs sink instead of floating in water
+- [x] [#3626](https://github.com/Pumpkin-MC/Pumpkin/issues/3626) — Creepers with status effects leave no area-effect cloud when they explode
+- [x] [#3624](https://github.com/Pumpkin-MC/Pumpkin/issues/3624) — Experience orbs sink instead of floating in water
 - [ ] [#3621](https://github.com/Pumpkin-MC/Pumpkin/issues/3621) — Opening and closing containers emits no game events
 - [ ] [#3618](https://github.com/Pumpkin-MC/Pumpkin/issues/3618) — Slimes cannot spawn in swamps or mangrove swamps
 - [ ] [#3614](https://github.com/Pumpkin-MC/Pumpkin/issues/3614) — Armor stands cannot equip or swap items through player interaction
@@ -261,13 +261,13 @@ Total fetched: 749 (399 Issues, 350 Pull Requests)
 - [ ] [#3574](https://github.com/Pumpkin-MC/Pumpkin/issues/3574) — Breaking tripwire with shears does not consume durability
 - [ ] [#3567](https://github.com/Pumpkin-MC/Pumpkin/issues/3567) — Waxing copper trapdoors resets their orientation and open state
 - [ ] [#3561](https://github.com/Pumpkin-MC/Pumpkin/issues/3561) — Attempt to attack invalid entity when hitting ender dragon
-- [ ] [#3558](https://github.com/Pumpkin-MC/Pumpkin/issues/3558) — Sugar cane cannot be planted beside water or waterlogged blocks
+- [x] [#3558](https://github.com/Pumpkin-MC/Pumpkin/issues/3558) — Sugar cane cannot be planted beside water or waterlogged blocks
 - [ ] [#3557](https://github.com/Pumpkin-MC/Pumpkin/issues/3557) — Lily pads cannot be placed on waterlogged blocks
-- [ ] [#3551](https://github.com/Pumpkin-MC/Pumpkin/issues/3551) — Scheduled block/fluid ticks execute in chunks outside `active_chunks` (asymmetric with random ticks)
+- [x] [#3551](https://github.com/Pumpkin-MC/Pumpkin/issues/3551) — Scheduled block/fluid ticks execute in chunks outside `active_chunks` (asymmetric with random ticks)
 - [ ] [#3548](https://github.com/Pumpkin-MC/Pumpkin/issues/3548) — Jukebox playback state never resumes after chunk or server reload
 - [ ] [#3522](https://github.com/Pumpkin-MC/Pumpkin/issues/3522) — Successful fishing yields no item, experience, or rod durability cost
 - [ ] [#3521](https://github.com/Pumpkin-MC/Pumpkin/issues/3521) — Bed and respawn-anchor explosions do not create fire
-- [ ] [#3520](https://github.com/Pumpkin-MC/Pumpkin/issues/3520) — Shields cannot block ordinary player melee attacks
+- [x] [#3520](https://github.com/Pumpkin-MC/Pumpkin/issues/3520) — Shields cannot block ordinary player melee attacks
 - [ ] [#3519](https://github.com/Pumpkin-MC/Pumpkin/issues/3519) — Tracking: implement Wilderness Bound gameplay and world generation from Java 26.3
 - [ ] [#3518](https://github.com/Pumpkin-MC/Pumpkin/issues/3518) — Dispensers lose aquatic mobs from filled buckets
 - [ ] [#3515](https://github.com/Pumpkin-MC/Pumpkin/issues/3515) — Explosion knockback ignores Blast Protection and the resistance attribute
@@ -280,9 +280,9 @@ Total fetched: 749 (399 Issues, 350 Pull Requests)
 - [ ] [#3464](https://github.com/Pumpkin-MC/Pumpkin/issues/3464) — Pressing against a mob after taking knockback launches the player upwards (server keeps sending the player its own stale SetEntityMotion y)
 - [ ] [#3456](https://github.com/Pumpkin-MC/Pumpkin/issues/3456) — Implement the minecraft:copy_components loot function (block entity data is lost on break)
 - [ ] [#3455](https://github.com/Pumpkin-MC/Pumpkin/issues/3455) — Define authoritative scoreboard source for gameplay team membership
-- [ ] [#3448](https://github.com/Pumpkin-MC/Pumpkin/issues/3448) — Select the center block for collapsed world border clamp ranges
-- [ ] [#3446](https://github.com/Pumpkin-MC/Pumpkin/issues/3446) — Deduplicate Java experience synchronization packets
-- [ ] [#3431](https://github.com/Pumpkin-MC/Pumpkin/issues/3431) — Configuration load failures are completely silent: the server starts with default values and prints nothing
+- [x] [#3448](https://github.com/Pumpkin-MC/Pumpkin/issues/3448) — Select the center block for collapsed world border clamp ranges
+- [x] [#3446](https://github.com/Pumpkin-MC/Pumpkin/issues/3446) — Deduplicate Java experience synchronization packets
+- [x] [#3431](https://github.com/Pumpkin-MC/Pumpkin/issues/3431) — Configuration load failures are completely silent: the server starts with default values and prints nothing
 - [ ] [#3396](https://github.com/Pumpkin-MC/Pumpkin/issues/3396) — Bedrock: multiple bugs (checking)
 - [ ] [#3392](https://github.com/Pumpkin-MC/Pumpkin/issues/3392) — Prevent datapack loaders from recursing into symbolic-link directories
 - [ ] [#3391](https://github.com/Pumpkin-MC/Pumpkin/issues/3391) — Dying deletes (or does insane durability to) armor equipped
@@ -312,7 +312,7 @@ Total fetched: 749 (399 Issues, 350 Pull Requests)
 - [ ] [#3103](https://github.com/Pumpkin-MC/Pumpkin/issues/3103) — Cant place paintings or itemframes
 - [ ] [#3100](https://github.com/Pumpkin-MC/Pumpkin/issues/3100) — Swamp huts dont generate
 - [ ] [#3099](https://github.com/Pumpkin-MC/Pumpkin/issues/3099) — Magma blocks generated in the terrain dont produce bubbles underwater.
-- [ ] [#3098](https://github.com/Pumpkin-MC/Pumpkin/issues/3098) — Village paths are not generating correctly.
+- [x] [#3098](https://github.com/Pumpkin-MC/Pumpkin/issues/3098) — Village paths are not generating correctly.
 - [ ] [#3096](https://github.com/Pumpkin-MC/Pumpkin/issues/3096) — Tracking: API
 - [ ] [#3092](https://github.com/Pumpkin-MC/Pumpkin/issues/3092) — XP Orbs do not absorb
 - [ ] [#3089](https://github.com/Pumpkin-MC/Pumpkin/issues/3089) — `player_server` no reactor running
@@ -322,7 +322,7 @@ Total fetched: 749 (399 Issues, 350 Pull Requests)
 - [ ] [#3071](https://github.com/Pumpkin-MC/Pumpkin/issues/3071) — Minecarts not going uphill
 - [ ] [#3069](https://github.com/Pumpkin-MC/Pumpkin/issues/3069) — Trident Drowned Only Attack in Melee Range
 - [ ] [#3068](https://github.com/Pumpkin-MC/Pumpkin/issues/3068) — Boats cannot be broken by hand
-- [ ] [#3065](https://github.com/Pumpkin-MC/Pumpkin/issues/3065) — Eyeblossom state changes send malformed Trail particle data and disconnect 26.2 clients
+- [x] [#3065](https://github.com/Pumpkin-MC/Pumpkin/issues/3065) — Eyeblossom state changes send malformed Trail particle data and disconnect 26.2 clients
 - [ ] [#3064](https://github.com/Pumpkin-MC/Pumpkin/issues/3064) — take damages when you get closer to a block
 - [ ] [#3061](https://github.com/Pumpkin-MC/Pumpkin/issues/3061) — Incorrect boat placement. Boats do not drop boat item after breaking.
 - [ ] [#3060](https://github.com/Pumpkin-MC/Pumpkin/issues/3060) — Mushrooms break unexpectedly
@@ -363,7 +363,7 @@ Total fetched: 749 (399 Issues, 350 Pull Requests)
 - [ ] [#2362](https://github.com/Pumpkin-MC/Pumpkin/issues/2362) — Incorrect terrain generation in the Jungle
 - [ ] [#2359](https://github.com/Pumpkin-MC/Pumpkin/issues/2359) — a few bugs i found
 - [ ] [#2291](https://github.com/Pumpkin-MC/Pumpkin/issues/2291) — Bedrock entity spawn crashes during chunk generation on Gen-Pool threads (no Tokio runtime)
-- [ ] [#3484](https://github.com/Pumpkin-MC/Pumpkin/issues/3484) — plugin-wit: Not all interfaces are imported
+- [x] [#3484](https://github.com/Pumpkin-MC/Pumpkin/issues/3484) — plugin-wit: Not all interfaces are imported
 - [ ] [#2232](https://github.com/Pumpkin-MC/Pumpkin/issues/2232) — Mobs ignore hitbox after getting hit by player + ignore bamboo
 - [ ] [#2220](https://github.com/Pumpkin-MC/Pumpkin/issues/2220) — Ender Dragon collision bug
 - [ ] [#2211](https://github.com/Pumpkin-MC/Pumpkin/issues/2211) — Block IDs table for plugin developers
