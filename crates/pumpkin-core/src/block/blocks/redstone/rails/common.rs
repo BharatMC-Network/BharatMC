@@ -36,8 +36,9 @@ pub(super) fn rail_placement_is_valid(world: &World, block: &Block, pos: &BlockP
 }
 
 pub(super) fn can_place_rail_at(world: &dyn BlockAccessor, pos: &BlockPos) -> bool {
-    let state = world.get_block_state(&pos.down());
-    state.is_side_solid(BlockDirection::Up)
+    let down = pos.down();
+    let state = world.get_block_state(&down);
+    state.is_side_solid(BlockDirection::Up) || world.get_block(&down) == &Block::HOPPER
 }
 
 pub(super) fn compute_placed_rail_shape(
