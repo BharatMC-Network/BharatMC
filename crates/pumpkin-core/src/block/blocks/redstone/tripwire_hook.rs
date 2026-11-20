@@ -1,6 +1,5 @@
 use std::sync::Arc;
 
-use pumpkin_data::game_event::GameEvent;
 use pumpkin_data::{
     Block, BlockDirection, BlockStateId, HorizontalFacingExt,
     game_event::GameEvent,
