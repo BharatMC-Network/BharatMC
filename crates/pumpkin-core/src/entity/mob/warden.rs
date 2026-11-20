@@ -104,15 +104,16 @@ impl WardenEntity {
             );
             target_selector.add_goal(
                 2,
-                ActiveTargetGoal::new(
+                Box::new(ActiveTargetGoal::new(
                     &mob_arc.mob_entity,
                     crate::entity::ai::target_match::TargetMatch::Mob,
+                    10,
                     true,
                     false,
-                    Some(|entity: &dyn EntityBase, _world: &World| {
-                        entity.get_entity().entity_type != &EntityType::WARDEN
+                    Some(|living: &crate::entity::living::LivingEntity, _world: &World| {
+                        living.entity.entity_type != &EntityType::WARDEN
                     }),
-                ),
+                )),
             );
         };
 
