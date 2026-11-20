@@ -15,14 +15,14 @@ Total fetched: 749 (399 Issues, 350 Pull Requests)
 - [ ] [#4592](https://github.com/Pumpkin-MC/Pumpkin/issues/4592) — WASM dynamic server-side tab completions throw the server into a panic and crash
 - [x] [#4583](https://github.com/Pumpkin-MC/Pumpkin/issues/4583) — Server deadlocks under load when a plugin handles PacketSentEvent
 - [ ] [#4582](https://github.com/Pumpkin-MC/Pumpkin/issues/4582) — Java 26.3 client disconnected ~3s after join: failed to decode clientbound level_particles (IndexOutOfBounds in readDouble)
-- [ ] [#4580](https://github.com/Pumpkin-MC/Pumpkin/issues/4580) — Mobs do not teleport inside of boats if near.
+- [x] [#4580](https://github.com/Pumpkin-MC/Pumpkin/issues/4580) — Mobs do not teleport inside of boats if near.
 - [ ] [#4579](https://github.com/Pumpkin-MC/Pumpkin/issues/4579) — failure to bind to assigned port
 - [ ] [#4560](https://github.com/Pumpkin-MC/Pumpkin/issues/4560) — Tracking: Items
 - [ ] [#4559](https://github.com/Pumpkin-MC/Pumpkin/issues/4559) — Tracking: Blocks
 - [ ] [#4558](https://github.com/Pumpkin-MC/Pumpkin/issues/4558) — At an extremely long render distance (64 chunks), the server may stop sending data packets.
-- [ ] [#4550](https://github.com/Pumpkin-MC/Pumpkin/issues/4550) — When clicking on mob that has variants with spawn eggs, child is default variant instead of similar to parent.
+- [x] [#4550](https://github.com/Pumpkin-MC/Pumpkin/issues/4550) — When clicking on mob that has variants with spawn eggs, child is default variant instead of similar to parent.
 - [ ] [#4547](https://github.com/Pumpkin-MC/Pumpkin/issues/4547) — Server never checks if the block rotation and position is possible from the players perspective.
-- [ ] [#4537](https://github.com/Pumpkin-MC/Pumpkin/issues/4537) — Shulker box doesn't check for blocks on top
+- [x] [#4537](https://github.com/Pumpkin-MC/Pumpkin/issues/4537) — Shulker box doesn't check for blocks on top
 - [ ] [#4529](https://github.com/Pumpkin-MC/Pumpkin/issues/4529) — Book Ban Exploit fix?
 - [ ] [#4528](https://github.com/Pumpkin-MC/Pumpkin/issues/4528) — Shuker crafting grid bug
 - [ ] [#4524](https://github.com/Pumpkin-MC/Pumpkin/issues/4524) — tree generates with dirt blocks as leaves
@@ -255,7 +255,7 @@ Total fetched: 749 (399 Issues, 350 Pull Requests)
 - [ ] [#3614](https://github.com/Pumpkin-MC/Pumpkin/issues/3614) — Armor stands cannot equip or swap items through player interaction
 - [ ] [#3603](https://github.com/Pumpkin-MC/Pumpkin/issues/3603) — Add "mob rate" options in pumpkin.toml
 - [ ] [#3593](https://github.com/Pumpkin-MC/Pumpkin/issues/3593) — Native `#[plugin_method]` futures are polled outside `GLOBAL_RUNTIME`, causing tokio reactor panics
-- [ ] [#3581](https://github.com/Pumpkin-MC/Pumpkin/issues/3581) — Players cannot use beds occupied by sleeping villagers
+- [x] [#3581](https://github.com/Pumpkin-MC/Pumpkin/issues/3581) — Players cannot use beds occupied by sleeping villagers
 - [ ] [#3580](https://github.com/Pumpkin-MC/Pumpkin/issues/3580) — Farmland and dirt paths turning into dirt can leave entities embedded
 - [ ] [#3575](https://github.com/Pumpkin-MC/Pumpkin/issues/3575) — Pass the used hand down to item behaviours (normal_use, normal_use_with_rotation)
 - [ ] [#3574](https://github.com/Pumpkin-MC/Pumpkin/issues/3574) — Breaking tripwire with shears does not consume durability
