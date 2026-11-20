@@ -41,6 +41,6 @@ jobs:
         with:
           tag_name: latest
           name: Latest Build (${{ github.sha }})
-          prerelease: true
+          prerelease: false
           make_latest: true
           files: dist/pumpkin-X64-Linux
