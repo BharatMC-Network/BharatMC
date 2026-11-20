@@ -1,0 +1,46 @@
+name: Auto Build & Release
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build-and-release:
+    name: Build & Publish Latest
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Install Rust
+        run: rustup update stable && rustup default stable
+
+      - uses: Swatinem/rust-cache@v2
+        with:
+          key: auto-release-x64-linux
+
+      - name: Build Release
+        run: cargo build --release
+
+      - name: Prepare Binary
+        run: |
+          mkdir -p dist
+          cp target/release/pumpkin dist/pumpkin-X64-Linux
+
+      - name: Publish to GitHub Releases
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: Latest Build (${{ github.sha }})
+          prerelease: true
+          make_latest: true
+          files: dist/pumpkin-X64-Linux
