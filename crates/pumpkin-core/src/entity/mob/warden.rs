@@ -102,6 +102,18 @@ impl WardenEntity {
                 1,
                 ActiveTargetGoal::with_default(&mob_arc.mob_entity, &EntityType::PLAYER, true),
             );
+            target_selector.add_goal(
+                2,
+                ActiveTargetGoal::new(
+                    &mob_arc.mob_entity,
+                    crate::entity::ai::target_match::TargetMatch::Mob,
+                    true,
+                    false,
+                    Some(|entity: &dyn EntityBase, _world: &World| {
+                        entity.get_entity().entity_type != &EntityType::WARDEN
+                    }),
+                ),
+            );
         };
 
         mob_arc
