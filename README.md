@@ -107,6 +107,18 @@ Or grab a prebuilt binary from the [Download page](https://pumpkinmc.org/downloa
 
 <!-- Check out our [Github Project](https://github.com/orgs/Pumpkin-MC/projects/3) to see current progress. -->
 
+## Known Issues & Fixes
+
+- [x] [#4640](https://github.com/Pumpkin-MC/Pumpkin/issues/4640) — Warden cannot attack any entity
+- [x] [#4629](https://github.com/Pumpkin-MC/Pumpkin/issues/4629) — Cannot place a regular rail on top of a hopper
+- [ ] [#4623](https://github.com/Pumpkin-MC/Pumpkin/issues/4623) — Player Locator Bar does not show other players with `locator_bar` enabled
+- [ ] [#4601](https://github.com/Pumpkin-MC/Pumpkin/issues/4601) — Bedrock player appears in a swimming pose
+- [ ] [#4598](https://github.com/Pumpkin-MC/Pumpkin/issues/4598) — Worldborder transition broken
+- [ ] [#4596](https://github.com/Pumpkin-MC/Pumpkin/issues/4596) — Frozen ocean icebergs turn into grass/dirt in strips of chunks
+- [ ] [#4593](https://github.com/Pumpkin-MC/Pumpkin/issues/4593) — `stop` and `SIGTERM` never return while a v0.2 plugin keeps an endless `spawn_local` future
+- [ ] [#4592](https://github.com/Pumpkin-MC/Pumpkin/issues/4592) — WASM dynamic server-side tab completions throw the server into a panic and crash
+- [ ] [#4583](https://github.com/Pumpkin-MC/Pumpkin/issues/4583) — Server deadlocks under load when a plugin handles `PacketSentEvent`
+
 ## Contributions
 
 Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md)
